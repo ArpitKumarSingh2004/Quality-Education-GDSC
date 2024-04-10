@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="about-us-icon-34425.png">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+        }
+        hr{
+            height: 5px;
+            color: #000;
+            background-color: #000;
+        }
+        .container{
+            max-width: 100%;
+        }
+
+        .team-member {
+            transition: transform 0.3s ease-in-out;
+            text-align: center;
+            border: none;
+            border-radius: 15px;
+            overflow: hidden;
+            margin: 20px;
+        }
+
+        .team-member:hover {
+            transform: translateY(-10px);
+        }
+
+        .team-member img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px 15px 0 0;
+        }
+
+        .team-member .card-body {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #007BFF;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+        .container1 {
+            margin-top: auto;
+            margin-bottom: auto;
+            /* Set the background image and configure its properties */
+            background-image: url('header.jpg'); /* Replace 'your-image-path.jpg' with the path to your image file */
+            background-size: cover; /* Ensures the image covers the entire background */
+            background-position: center; /* Centers the image horizontally and vertically */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+             /* Remove default margin to cover the entire viewport */
+            height: auto; /* Set the body height to 100% of the viewport height */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="container">
+        <header>
+            <div class="container1" style="display: flex; align-self: center;">
+                <div style="max-width: 100%;" class="image-container1">
+                    <img src="image 1.png" alt="image1">
+                </div>
+                <div style="height: 100px; border-left: 2px solid black; margin-left: 10px; margin-top: 25px;" class="vertical-line"></div>
+                <div style="color: #000; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 25px; font-style: normal; font-weight: 700; line-height: 36px; margin-left: 20px; margin-right: 100px; margin-top: 20px;" class="text-container">
+                    <p style="color: #000;"> Empowering Minds:<br>Nurturing Excellence through Quality Education</p>
+                </div>
+                <div class="image-container2">
+                    <img src="image 2.png" alt="image2">
+                </div>   
+            </div>
+        </header>
+        <hr>
+        <div class="aim">
+            <p style="color: black;">Team - White Hawk</p>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="card team-member">
+                    <img src="Abhrajit Chatterjee.jpg" alt="Team Member 1">
+                    <div class="card-body">
+                        <h2>Team Lead</h2>
+                        <p>Abhrajit Chatterjee</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="card team-member">
+                    <img src="Arpit Kumar Singh.jpg" alt="Team Member 2">
+                    <div class="card-body">
+                        <h2>Member 1</h2>
+                        <p>Arpit Kumar Singh</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="card team-member">
+                    <img src="Ayansh Raj.jpg" alt="Team Member 3">
+                    <div class="card-body">
+                        <h2>Member 2</h2>
+                        <p>Ayansh Raj</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="card team-member">
+                    <img src="Kartikey Thakur.jpg" alt="Team Member 4">
+                    <div class="card-body">
+                        <h2>Member 3</h2>
+                        <p>Kartikey Thakur</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p style="text-align: center; background-color: #000; color: white; margin: 0; padding: 10px;">Copyright &copy; 2023 Team - "White Hawk"</p>
+        </footer>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js scripts (required for Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
